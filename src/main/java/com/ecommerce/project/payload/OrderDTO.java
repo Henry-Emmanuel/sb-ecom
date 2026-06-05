@@ -16,7 +16,7 @@ public class OrderDTO {
     private List<OrderItemDTO> orderItems;
     private LocalDate orderDate;
     private PaymentDTO payment;
-    private Double totalPrice;
+    private Double totalAmount;
     private String orderStatus;
     private Long addressId;
 }

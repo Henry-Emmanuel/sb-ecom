@@ -29,8 +29,8 @@ public class Payment {
     private String pgResponseStatus;
     private String pgName;
 
-    public Payment(Long paymentId, String pgPaymentId, String pgStatus, String pgResponseStatus, String pgName) {
-        this.paymentId = paymentId;
+    public Payment(String paymentMethod, String pgPaymentId, String pgStatus, String pgResponseStatus, String pgName) {
+        this.paymentMethod = paymentMethod;
         this.pgPaymentId = pgPaymentId;
         this.pgStatus = pgStatus;
         this.pgResponseStatus = pgResponseStatus;
